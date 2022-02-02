@@ -486,12 +486,12 @@ const Home = (props: HomeProps) => {
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="0.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"></a>
+                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">We</a>
                         </li>
                         <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer"></a></li>
+                               rel="noopener noreferrer">ARE</a></li>
                         <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer"></a></li>
+                               rel="noopener noreferrer">Menu 3</a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -580,10 +580,17 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>SBC WHITELIST</GoldTitle></LogoAligner>
-                          
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>WE</GoldTitle></LogoAligner>
+                            
                         </Des>
-                        
+                        <Des elevation={2}>
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>ARE</GoldTitle></LogoAligner>
+                           
+                        </Des>
+                        <Des elevation={2}>
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>SBC</GoldTitle></LogoAligner>
+                            
+                        </Des>
                     </DesContainer>
                 </MintContainer>
             </MainContainer>
