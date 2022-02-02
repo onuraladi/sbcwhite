@@ -484,14 +484,14 @@ const Home = (props: HomeProps) => {
             <MainContainer>
                 <WalletContainer>
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
-                                                                                                          src="logo.png"/></a></Logo>
+                                                                                                          src="0.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"></a>
                         </li>
                         <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
+                               rel="noopener noreferrer"></a></li>
                         <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                               rel="noopener noreferrer"></a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -510,7 +510,7 @@ const Home = (props: HomeProps) => {
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="cool-cats.gif"
+                                src="14.gif"
                                 alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) &&
@@ -580,32 +580,10 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>SBC WHITELIST</GoldTitle></LogoAligner>
+                          
                         </Des>
-                        <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                        </Des>
-                        <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                        </Des>
+                        
                     </DesContainer>
                 </MintContainer>
             </MainContainer>
