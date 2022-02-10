@@ -580,16 +580,18 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="" alt=""></img><GoldTitle></GoldTitle></LogoAligner>
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>What Are SBC</GoldTitle></LogoAligner>
+                            <p>A Metaverse collection with unlimited possibilities for those who hold it. 5000 Solbucks Brew Cups, each completely unique, created on the Solana blockchain, are packaged to ship to their new owners.</p>
                            
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="" alt=""></img><GoldTitle></GoldTitle></LogoAligner>
-                            
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle></GoldTitle>Why Should We Mint SBC</LogoAligner>
+                            <p>Having a unique and smooth SBC that is completely your own. And unlimited possibilities!
+We will not only be listed in all market places, we will be listed in all coffee shops as well.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="" alt=""></img><GoldTitle></GoldTitle></LogoAligner>
-                            
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle></GoldTitle >Which Wallet Should I Use For Mint</LogoAligner>
+                            <p>We recommend Phantom, but you can also use Solflare or Sollet.</p>
                         </Des>
                     </DesContainer>
                 </MintContainer>
