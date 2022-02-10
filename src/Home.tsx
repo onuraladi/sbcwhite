@@ -583,7 +583,14 @@ const Home = (props: HomeProps) => {
                             <LogoAligner><img src="0.png" alt=""></img><GoldTitle>WE</GoldTitle></LogoAligner>
                             
                         </Des>
-                     
+                        <Des elevation={2}>
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>ARE</GoldTitle></LogoAligner>
+                           
+                        </Des>
+                        <Des elevation={2}>
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>SBC</GoldTitle></LogoAligner>
+                            
+                        </Des>
                     </DesContainer>
                 </MintContainer>
             </MainContainer>
