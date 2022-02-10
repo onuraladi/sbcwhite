@@ -483,14 +483,14 @@ const Home = (props: HomeProps) => {
         <main>
             <MainContainer>
                 <WalletContainer>
-                    <Logo><a href="https://www.solbucksbrewclub.com/" target="_blank" rel="noopener noreferrer"><img alt=""
+                    <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="1.png"/></a></Logo>
                     <Menu>
-                        <li><a href="#" target="_blank" rel="noopener noreferrer">Welcome To</a>
+                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Welcome To</a>
                         </li>
-                        <li><a href="#" target="_blank"
+                        <li><a href="http://localhost:3000/" target="_blank"
                                rel="noopener noreferrer">Solbucks Brew</a></li>
-                        <li><a href="#" target="_blank"
+                        <li><a href="http://localhost:3000/" target="_blank"
                                rel="noopener noreferrer">Club</a></li>
                     </Menu>
                     <Wallet>
