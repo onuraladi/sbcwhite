@@ -579,7 +579,18 @@ const Home = (props: HomeProps) => {
                         </NFT>
                     </DesContainer>
                     <DesContainer>
-                      
+                        <Des elevation={2}>
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle></GoldTitle></LogoAligner>
+                           
+                        </Des>
+                        <Des elevation={2}>
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle></GoldTitle></LogoAligner>
+                            
+                        </Des>
+                        <Des elevation={2}>
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle></GoldTitle></LogoAligner>
+                            
+                        </Des>
                     </DesContainer>
                 </MintContainer>
             </MainContainer>
