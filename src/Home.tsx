@@ -483,15 +483,15 @@ const Home = (props: HomeProps) => {
         <main>
             <MainContainer>
                 <WalletContainer>
-                    <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
-                                                                                                          src="0.png"/></a></Logo>
+                    <Logo><a href="https://www.solbucksbrewclub.com/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="1.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">We</a>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">Welcome To</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">ARE</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                        <li><a href="#" target="_blank"
+                               rel="noopener noreferrer">Solbucks Brew</a></li>
+                        <li><a href="#" target="_blank"
+                               rel="noopener noreferrer">Club</a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -583,14 +583,7 @@ const Home = (props: HomeProps) => {
                             <LogoAligner><img src="0.png" alt=""></img><GoldTitle>WE</GoldTitle></LogoAligner>
                             
                         </Des>
-                        <Des elevation={2}>
-                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>ARE</GoldTitle></LogoAligner>
-                           
-                        </Des>
-                        <Des elevation={2}>
-                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>SBC</GoldTitle></LogoAligner>
-                            
-                        </Des>
+                     
                     </DesContainer>
                 </MintContainer>
             </MainContainer>
