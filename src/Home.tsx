@@ -483,14 +483,14 @@ const Home = (props: HomeProps) => {
         <main>
             <MainContainer>
                 <WalletContainer>
-                    <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
+                    <Logo><a href="https://www.solbucksbrewclub.com/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="1.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Welcome To</a>
+                        <li><a href="https://www.solbucksbrewclub.com/" target="_blank" rel="noopener noreferrer">Welcome To</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
+                        <li><a href="https://www.solbucksbrewclub.com/" target="_blank"
                                rel="noopener noreferrer">Solbucks Brew</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
+                        <li><a href="https://www.solbucksbrewclub.com/" target="_blank"
                                rel="noopener noreferrer">Club</a></li>
                     </Menu>
                     <Wallet>
@@ -580,16 +580,18 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>WE</GoldTitle></LogoAligner>
-                            
-                        </Des>
-                        <Des elevation={2}>
-                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>ARE</GoldTitle></LogoAligner>
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>What Are SBC</GoldTitle></LogoAligner>
+                            <p>A Metaverse collection with unlimited possibilities for those who hold it. 5000 Solbucks Brew Cups, each completely unique, created on the Solana blockchain, are packaged to ship to their new owners.</p>
                            
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle>SBC</GoldTitle></LogoAligner>
-                            
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle></GoldTitle>Why Should We Mint SBC</LogoAligner>
+                            <p>Having a unique and smooth SBC that is completely your own. And unlimited possibilities!
+We will not only be listed in all market places, we will be listed in all coffee shops as well.</p>
+                        </Des>
+                        <Des elevation={2}>
+                            <LogoAligner><img src="0.png" alt=""></img><GoldTitle></GoldTitle>Which Wallet Should I Use For Mint</LogoAligner>
+                            <p>We recommend Phantom, but you can also use Solflare or Sollet.</p>
                         </Des>
                     </DesContainer>
                 </MintContainer>
