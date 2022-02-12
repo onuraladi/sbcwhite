@@ -506,7 +506,7 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>SBC Mint Page -v2</h2>
+                            <h2>SBC Mint Page -v3 (v1-v2 SOLD OUT🔥🔥🔥)</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
